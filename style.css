@@ -3,7 +3,30 @@
     padding:0;
     box-sizing:border-box;
 }
+/*--------------------Layout---------------*/
+.container{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2.5em; 
+    grid-auto-flow:dense,
+ }
 
-body{
-    
-}
+ .card-1{
+ grid-area: 1/1/2/3;
+ }
+
+ .card-2{
+
+ }
+
+
+ .card-3{
+
+ }
+ .card-4{
+    grid-area:2/2/3/4;
+ }
+ .card-5{
+   grid-area:1/4/-1/5
+ }
