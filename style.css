@@ -1,3 +1,17 @@
+:root{
+  --Moderate-violet: hsl(263, 55%, 52%);
+  --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+
+
+  --Light-gray: hsl(0, 0%, 81%);
+  --Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+
+
+
 *{
     margin:0;
     padding:0;
@@ -23,14 +37,48 @@ section{
 
 
 
-/*------------------Color Fonts--------------------------*/
+/*------------------Color & Fonts--------------------------*/
+ 
+body{ 
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
 
 
+.light-font{
+  color:var(--White)
+}
+
+.light-font p{
+  color:var(--Light-gray)
+}
 
 
+.dark-font{
+  color:var(--Very-dark-grayish-blue)
+}
+.card-1{
+ background-color: var(--Moderate-violet);
+ background-image: url(images/bg-pattern-quotation.svg);
+ background-repeat: no-repeat;
+  }
+ 
+  .card-2{
+ background-color: var(--Very-dark-grayish-blue);
+  }
+ 
+ 
+  .card-3{
+ 
+  }
+  .card-4{
+     background-color:var(--Very-dark-blackish-blue);
+  }
 
 
-
+  .card-5{
+     
+  }
+   
 
 
 
