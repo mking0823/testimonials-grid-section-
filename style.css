@@ -27,12 +27,30 @@ section{
 
 
 
+section > span{
+  display: block;
+}
 
 
 
 
+.img-container{
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  flex-wrap: wrap;
+  gap:1rem;
+}
 
-
+.img-container > div{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+}
+span{
+  display: block;
+  
+}
 
 
 
@@ -43,6 +61,16 @@ body{
   font-family: "Barlow Semi Condensed", sans-serif;
 }
 
+img{
+  border-radius: 50px;
+  border: 3px solid var(--Very-dark-grayish-blue);
+  
+}
+
+section{
+  border-radius: 8px;
+  padding:2.5em;
+}
 
 .light-font{
   color:var(--White)
@@ -60,6 +88,8 @@ body{
  background-color: var(--Moderate-violet);
  background-image: url(images/bg-pattern-quotation.svg);
  background-repeat: no-repeat;
+ background-position: top right 17%; 
+ background-size: 10rem;
   }
  
   .card-2{
@@ -80,7 +110,10 @@ body{
   }
    
 
-
+p{
+  line-height: 1.5em;
+  font-size: 0.8125rem;
+}
 
 
 
