@@ -18,7 +18,14 @@
     box-sizing:border-box;
 }
 /*--------------------Layout---------------*/
-
+html{
+  height:100vh;
+}
+body{
+  display:grid;
+  grid-template-rows: 1fr 16px;
+  height: 100%;
+}
 
 section{
   margin-bottom: 2rem;
@@ -138,9 +145,8 @@ p{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr);
-    gap: 2.5em; 
-    grid-auto-flow:dense,
- }
+    gap: 1.5em; 
+   
 
  .card-1{
  grid-area: 1/1/2/3;
